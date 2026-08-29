@@ -157,6 +157,15 @@ Not a feature tour. A narrative that connects the buyer's problems to your produ
 |---|---|---|---|
 | "[Exact words]" | [The underlying concern] | Acknowledge → Reframe → Evidence → Bridge to value | [Specific customer data or quote] |
 
+## CTA and proof-point sharpening (from *Content That Converts*)
+
+Two extra checks that deepen the "Missing the CTA" and "No proof points" mistakes above.
+
+- **The three C's for every CTA:** correct (the right ask for this deal stage — jumping straight to "Request a demo" on an Awareness-stage asset is the same mistake as overusing the demo CTA everywhere; match the ask to the Asset Router stage), clear (one unambiguous action, not a menu of options), compelling (name the outcome the action leads to, not the action itself — "see your onboarding time cut in half" sells harder than "schedule a call").
+- **Proof points work through specificity, not scale.** "We work with 500+ B2B companies" is weaker than naming the buyer's exact segment or challenge — a rep-facing asset should let the specific buyer see themselves in the proof, not just see that other companies exist. Apply this inside the Objection Handling table too: the "Evidence" step lands harder when it names a peer in the buyer's specific situation rather than a generic client list.
+
+
+
 ## Reference Files
 
 - **[example-one-pager.md](references/example-one-pager.md)**: Read before creating one-pagers to calibrate structure, tone, and specificity.

@@ -88,6 +88,10 @@ skill-name/
     └── assets/     - Files used in output (templates, icons, fonts)
 ```
 
+**Naming rules:**
+- The file must be named exactly `SKILL.md` (case-sensitive) — not `skill.md`, `Skill.md`, or anything else.
+- Skill folder names use kebab-case (e.g., `notion-project-setup`, not `notion_project_setup` or `NotionProjectSetup`).
+
 #### Progressive Disclosure
 
 Skills use a three-level loading system:
@@ -494,3 +498,10 @@ Repeating one more time the core loop here for emphasis:
 Please add steps to your TodoList, if you have such a thing, to make sure you don't forget. If you're in Cowork, please specifically put "Create evals JSON and run `eval-viewer/generate_review.py` so human can review test cases" in your TodoList to make sure it happens.
 
 Good luck!
+
+---
+
+## Changelog
+
+- **Original (Anthropic)** — Base skill-creator skill as shipped by Anthropic: core create → test → evaluate → iterate loop, progressive disclosure architecture, eval viewer, description optimization loop.
+- **v1 (Lucas, June 2026)** — Layered in extra guidance from Anthropic's public skill-authoring docs and lessons learned in-session: persona/context-setting step, expanded reference file patterns and error-handling structure (`references/information-architecture.md`), description quality checklist with negative-trigger examples, and naming rules (SKILL.md must be exact/case-sensitive, folder names kebab-case).

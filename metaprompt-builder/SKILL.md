@@ -28,21 +28,24 @@ Before building anything, assess what you already know:
 6. Is there an example, inspiration, or reference to draw from?
 7. Which of the 3 construction paths fits best? (see below)
 
+**Before or alongside the interview, build the information library:** ask the user to share any reference files, documents, images, or links relevant to the task. Feeding this context in up front beats trying to extract it through Q&A alone — attach first, then interview to fill remaining gaps.
+
 **Never start building until you have enough to fill the structure properly.** Incomplete input = incomplete metaprompt.
 
 ---
 
 ## Step 2 — Choose Construction Path
 
-Three options depending on what the user has:
+Four options depending on what the user has:
 
 | Path | When to use | How |
 |---|---|---|
 | **1 — Instructions Prompt** | User has a clear goal and enough context | Build directly using the 8-part structure |
-| **2 — Example Breakdown** | User has a great example of the output they want | Ask AI to deconstruct it step-by-step, then turn that into Path 1 |
-| **3 — Expert Source** | User has a reliable reference or domain source | Extract a guide from it (Path 2 logic), then build Path 1 |
+| **2.1 — Guide-First** | No example exists yet, but the task follows a known process | Ask the AI to generate a detailed step-by-step guide for the task first, then feed that guide back in as the basis for Path 1 |
+| **2.2 — Example Breakdown** | User has a great example of the output they want | Ask AI to deconstruct it into the most granular steps, as if teaching someone to do it, then turn that breakdown into Path 1 |
+| **3 — Expert Source** | User has a reliable reference or domain source but no example | Extract a step-by-step guide from it (same logic as Path 2.1/2.2), then build Path 1 |
 
-Default to **Path 1** unless the user signals they have an example or source to work from.
+Default to **Path 1** unless the user signals they have an example, source, or need a guide generated first.
 
 ---
 
