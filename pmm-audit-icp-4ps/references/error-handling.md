@@ -16,7 +16,7 @@
 
 ## External Skill Unavailable
 
-**Symptom**: `messaging-positioning` or `product-launch-playbook` skill is not installed or not accessible
+**Symptom**: `competitive-intelligence`, `win-loss-analyzer`, `messaging-positioning`, or `product-launch-playbook` skill is not installed or not accessible
 **Resolution**: "The [Skill Name] skill doesn't appear to be installed. I can provide a basic version of this output using built-in knowledge, but for the full framework I recommend installing it from your skill library. Shall I proceed with the basic version?"
 
 ---
